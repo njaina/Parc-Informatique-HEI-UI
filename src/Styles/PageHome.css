@@ -1,0 +1,45 @@
+.HomePage{
+    padding-left: 2%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 98vw;
+    height: 96vh;
+    background-image: url("Image/perf.jpg");
+    background-size: cover;
+}
+
+.left{
+    width: 20vw;
+    height: 90vh;
+    background-color: beige;
+    background-color: rgb(255,255,255,0.15);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+    color: #ffffff;
+    letter-spacing: 0.4rem;
+}
+
+.right{
+    width: 74vw;
+    height: 90vh;
+    background-color: darkslategrey;
+    margin-left: 30px;
+    background-color: rgb(255,255,255,0.15);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+    color: #ffffff;
+    letter-spacing: 0.4rem;
+}
+.right th {
+    display: flex;
+    flex-direction: row;
+}
+.right tr {
+    margin: 5px 50px 0 15px;
+    padding: 0 100px 0  100px;
+    border: 1px solid white;
+    height: 550px;
+}

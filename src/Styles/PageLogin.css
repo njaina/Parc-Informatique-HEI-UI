@@ -1,0 +1,61 @@
+.LoginPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Image/perf.jpg");
+    background-size: cover;
+}
+
+.container{
+    width: 35vw;
+    /*height: 78vh;*/
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255,255,255,0.15);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+    color: #ffffff;
+    letter-spacing: 0.4rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    margin-bottom: 30px;
+    background-color: rgb(200,200,200,0.15);
+    padding-left: 20px;
+    width: 26vw;
+    height: 8vh;
+    border-radius: 20px;
+    color: black;
+    letter-spacing: 0.1rem;
+    outline: beige;
+}
+
+.icon{
+    margin-left: -11%;
+}
+
+#login{
+    display: none;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 14px;
+    height: 8vh;
+    width: 15vw;
+}
